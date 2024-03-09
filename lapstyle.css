@@ -1,0 +1,166 @@
+/* Improved Table Formatting */
+.product-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Optional: Link Styling */
+a {
+    color: #000;  /* Set link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;  /* Set hover color for links */
+}
+
+
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+p {
+    text-align: center;  /* Justify text for better readability */
+}
+
+/* Product List Styles */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.product {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.product h2 {
+    margin-bottom: 15px;
+}
+
+.product ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product a {
+    color: #000;
+    text-decoration: none;
+}
+
+.product a:hover {
+    color: #333;
+}
+
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+.product-table th:first-child,
+.product-table td:first-child {
+    width: 30%;
+}
+
+
+
+ /* Navigation bar styles */
+ .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .nav-menu li a.active {
+    font-weight: bold;
+  }
+  
+  /* Banner styles */
+  .banner {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  

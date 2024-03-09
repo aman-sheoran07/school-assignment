@@ -1,0 +1,157 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about-section,
+  .skills-section,
+  .contact-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2,
+  .skills-section h2,
+  .contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .contact-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-section ul {
+    list-style: none;
+  }
+  
+  .skills-section li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  
+
+  /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .nav-menu li a.active {
+    font-weight: bold;
+  }
+  
+  /* Banner styles */
+  .banner {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  
